@@ -90,27 +90,27 @@
 }
 
 /*navbar*/
-.btn-close-menu{
-    
-}
-.btn-close-menu img {
+
+#btn-close-menu img {  
     height: 30px;
     width: 30px;
     cursor: pointer; 
     transition: all 0.9s ease-in-out 0s; 
+    
    
 }
 
-.btn-close-menu img:hover {
+#btn-close-menu img:hover {
      transform: rotate(360deg);
      transition: all 0.9s ease-in-out 0s; 
     }
 
 .navbar-accueil{
     display: flex;
-    justify-content: space-between;
-    padding: 20px 30px;
+    justify-content: flex-end;
     font-size: 22px;
+    padding-top: 30px;
+    padding-right: 30px;
 
 }
 
@@ -196,11 +196,230 @@ a {
   .btn1:hover::before{
     transform: scaleX(1);
   }
-  .btn2::before{
-    transform: scaleY(0);
-  }
   
-  .btn2:hover::before{
-    transform: scaleY(1);
-  }
   
+  /*competence*/
+
+  #competence h1{ 
+      
+      color:  #FF7675;
+      font-size: 50px;
+      text-transform: uppercase;
+     
+      
+  }
+.border{
+    border-bottom: 2px solid   #FF7675; 
+    width: 200Px; 
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 20px;
+      
+}
+
+  h1{
+      text-align: center;
+      
+  }
+  .list-competence{
+      text-align: center;
+      line-height:40px;
+    
+  }
+  .list-competence ol li {
+      
+    color:  #FF7675; 
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+  
+  }  
+  p{
+      color: #353433;
+      font-size: 16px; 
+      font-weight: 300;
+    
+  }
+  img{ 
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+
+  }
+  .upimg{
+    text-align: center;
+    padding-top: 30px;
+  }
+  a img:hover{     
+      opacity: 0.5;
+      transition: opacity .4S;
+}
+/*formation*/
+
+#competenceformation h1{ 
+      
+    color: #81ecec;
+    font-size: 50px;
+    text-transform: uppercase;
+   
+    
+}
+.border-competenceformation{
+  border-bottom: 2px solid  #81ecec;
+  width: 200Px; 
+  display: inline-block;
+  justify-content: center;
+  margin-bottom: 20px;
+    
+}
+
+h1{
+    text-align: center;
+    
+}
+.list-competenceformation{
+    text-align: center;
+    line-height:40px;
+  
+}
+.list-competenceformation ol li {
+    
+  color:  #81ecec;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 300;
+
+}  
+p{
+    color: #353433;
+    font-size: 16px; 
+    font-weight: 300;
+  
+}
+img{ 
+  height: 30px;
+  width: 30px;
+  margin-bottom: 20px;
+
+}
+.upimg{
+  text-align: center;
+  padding-top: 30px;
+}
+a img:hover{     
+    opacity: 0.5;
+    transition: opacity .4S;
+}
+
+/*hobby*/
+#hobby h1{ 
+      
+    color:  #fd79a8;
+    font-size: 50px;
+    text-transform: uppercase;
+   
+    
+}
+.border-hobby{
+  border-bottom: 2px solid   #fd79a8;
+  width: 200Px; 
+  display: inline-block;
+  justify-content: center;
+  margin-bottom: 20px;
+    
+}
+
+h1{
+    text-align: center;
+    
+}
+.list-hobby{
+    text-align: center;
+    line-height:40px;
+  
+}
+.list-hobby ol li {
+    
+  color:   #fd79a8;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 300;
+
+}  
+p{
+    color: #353433;
+    font-size: 16px; 
+    font-weight: 300;
+  
+}
+img{ 
+  height: 30px;
+  width: 30px;
+  margin-bottom: 20px;
+
+}
+.upimg{
+  text-align: center;
+  padding-top: 30px;
+}
+a img:hover{     
+    opacity: 0.5;
+    transition: opacity .4S;
+} 
+
+
+/*parcours*/
+ #competenceparcours h1{ 
+      
+      color:   #a29bfe;
+      font-size: 50px;
+      text-transform: uppercase;
+     
+      
+  }
+.border-parcours{
+    border-bottom: 2px solid   #a29bfe;
+    width: 200Px; 
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 20px;
+      
+}
+
+  h1{
+      text-align: center;
+      
+  }
+  .list-parcours{
+      text-align: center;
+      line-height:40px;
+    
+  }
+  .list-parcours ol li {
+      
+    color:   #a29bfe;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+  
+  }  
+  p{
+      color: #353433;
+      font-size: 16px; 
+      font-weight: 300;
+    
+  }
+  img{ 
+    height: 30px;
+    width: 30px;
+    margin-bottom: 20px;
+
+  }
+  .upimg{
+    text-align: center;
+    padding-top: 30px;
+  }
+  a img:hover{     
+      opacity: 0.5;
+      transition: opacity .4S;
+} 
