@@ -132,12 +132,12 @@ transition: color 0.3s linear;
 
 .contact{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 90px;
     height: 200px;
        
 }
 .line  {
-    font-size: 30px;
+    font-size: 24px;
     height: 200px;
     text-decoration: none;
     font-weight: 700;
